@@ -17,7 +17,6 @@ cmake -S . -B build
 cmake --build build
 ```
 
-在 Windows/MSVC 下，CMake 配置还会开启 `/Zc:__cplusplus` 和 UTF-8 源码选项。请确保 Qt 6 的 CMake 包能被当前环境找到。仓库中出现的 `cmake-build-debug` 是本地 IDE 构建目录，不是项目源码或可移植的构建产物。
 
 ## 目录结构
 
